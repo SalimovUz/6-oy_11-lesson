@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+}
+
+body {
+  font-family: barlow;
+  background: #252836;
+  color: #fff;
+}
+
+.dish:hover .btn {
+  color: #fff;
+  border: 2px solid #252836;
+  padding: 5px 20px;
+  border-radius: 7px;
+  font-family: barlow;
+  font-weight: 400;
+}
+
+.dish:hover .btn:hover {
+  background-color: #252836;
+  color: #fff;
+}
